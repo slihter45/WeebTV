@@ -1,0 +1,33 @@
+[
+    {
+        "id": "username",
+        "type": "text",
+        "label": "WeebTV username",
+        "default": ""
+    },
+
+    {
+        "id": "password",
+        "type": "text",
+        "option": "hidden",
+        "label": "WeebTV password",
+        "default": "",
+        "secure": "true"
+    },
+
+    {
+        "id": "quality",
+        "label": "Default video quality (when available)",
+        "type": "enum",
+        "values": ["High","Low"],
+        "default": "Low"
+    },
+    
+    {
+        "id": "epgChanPerPage",
+        "label": "Channels per page",
+        "type": "enum",
+        "values": ["All","10","15","20","25","30"],
+        "default": "10"
+    }
+]
